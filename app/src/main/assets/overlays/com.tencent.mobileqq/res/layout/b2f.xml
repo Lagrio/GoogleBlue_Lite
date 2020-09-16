@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@*com.tencent.mobileqq:style/g3">
+    <ImageView
+        android:id="@*com.tencent.mobileqq:id/dq9"
+        android:src="@*com.tencent.mobileqq:drawable/qq_setting_xiangce"
+        style="@*com.tencent.mobileqq:style/g2" />
+    <com.tencent.mobileqq.redtouch.RedTouchTextView
+        android:id="@*com.tencent.mobileqq:id/item_txt"
+        android:text="@*com.tencent.mobileqq:string/qq_setting_xiangce"
+        style="@*com.tencent.mobileqq:style/g6" />
+    <com.tencent.widget.ThemeLabelTextView
+        android:id="@*com.tencent.mobileqq:id/dqu"
+        android:visibility="gone"
+        style="@*com.tencent.mobileqq:style/g4" />
+    <ImageView
+        android:id="@*com.tencent.mobileqq:id/dq2"
+        android:visibility="gone"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginRight="@*com.tencent.mobileqq:dimen/akj"
+        android:scaleType="centerCrop" />
+    <com.tencent.image.URLImageView
+        android:id="@*com.tencent.mobileqq:id/a0_"
+        android:visibility="gone"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginRight="0dp"
+        android:scaleType="centerCrop" />
+    <ImageView
+        android:id="@*com.tencent.mobileqq:id/dqt"
+        android:visibility="gone"
+        android:src="@*com.tencent.mobileqq:drawable/common_arrow_right_selector"
+        style="@*com.tencent.mobileqq:style/g5" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Making a dark theme? You know what to do! -->
+    <style name="DialogStyle" parent="@style/Theme.AppCompat.Light.Dialog.Alert" />
+    <!--
+      ~ Custom dialog message on theme launch.
+      ~ Add word in launch_dialog_negative to add a cancel button on the dialog
+      -->
+    <string name="launch_dialog_title">使用前必读</string>
+    <string name="launch_dialog_content">！当前版本仅适用于QQ 国内版 8.4.8.4810(1492)\n\n欢迎您使用基于Substratum主题引擎开发的MaterialQQ – GoogleBlue主题！\n\n┃主题应用\n-如您是第一次使用该主题，请先前往分发频道获取并仔细阅读教程\n-非 社区支援ROM/仙女座模式 需要Root [最好使用MagiskSu] 以启用 Root 模式\n-Android 10 大部分情况需要Magisk\n-可能需要重启您的手机才能使叠加层成功安装\n-矩形/圆形图标分支仅指[群助手，群通知]等图标的样式之区别，该主题并不能控制矩形/圆形头像的展示\n-选择 圆形图标分支[默认] 时请您搭配QQ 白色极简/极地白 主题[请在「个性装扮」中启用]使用\n-选择 矩形图标分支 时请您搭配QQ 简洁模式 [非 灰、白、黄、黑 配色] 使用\n\n┃故障排除\n-如编译后未能在管理器中找到叠加层，当您的面具版本≤v20.1时，请尝试 1.将SELinux设为宽容模式 2.重启手机 3.重新编译叠加层 4.再次重启手机\n-如主题不能正常覆盖[表现为图标错位等][通常在更新QQ版本、清理手机垃圾后出现]，请[按顺序]尝试 1.在管理器中停用叠加层 2.进入手机设置，清除QQ 缓存  3.强行停止QQ 4.打开QQ，检查是否能正常展示您所设置的QQ主题，如否，请重新进行1-3步 5.启用叠加层\n-如主题不能正常覆盖 [表现为只生效桌面图标] ，请检查 Magisk Hide 是否对 QQ 启用，如 是 ，请尝试 取消启用\n\n┃提示\n-该版本为捐赠版本，请不要直接分享apk文件！您大可以向您的朋友推荐这款主题并邀请他从作者手中获取，而不是直接发送apk文件，感谢您的支持与理解！\n-您捐赠后进群获得的仅为主题的使用权而不是主题的所有权\n 该主题仅限您本人使用，不得分享给他人(无论是付费分享还是免费分享)</string>
+    <string name="launch_dialog_positive">开始配置主题</string>
+    <string name="launch_dialog_negative">QQ群组</string>
+    <string name="launch_dialog_negative_url" >http://dwz.date/HWs</string>
+</resources>

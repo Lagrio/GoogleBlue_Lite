@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="@*com.tencent.mobileqq:dimen/title_bar_height">
+    <ImageView
+        android:id="@*com.tencent.mobileqq:id/conversation_head"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <ImageView
+        android:id="@*com.tencent.mobileqq:id/dqt"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginLeft="16dp"
+        android:src="@*com.tencent.mobileqq:drawable/c1s"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true" />
+    <View
+        android:id="@*com.tencent.mobileqq:id/ba1"
+        android:focusable="true"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@*com.tencent.mobileqq:string/aaq" />
+    <com.tencent.widget.ThemeImageView
+        android:id="@*com.tencent.mobileqq:id/fd9"
+        android:padding="2dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toRightOf="@*com.tencent.mobileqq:id/dqt"
+        android:layout_alignBottom="@*com.tencent.mobileqq:id/dqt"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:id="@*com.tencent.mobileqq:id/ba0"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_alignTop="@*com.tencent.mobileqq:id/ba1"
+        android:layout_alignRight="@*com.tencent.mobileqq:id/ba1"
+        style="@*com.tencent.mobileqq:style/cg" />
+</RelativeLayout>
