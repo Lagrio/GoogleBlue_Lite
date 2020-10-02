@@ -101,7 +101,6 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="@*com.tencent.mobileqq:dimen/bdq"
                         android:minHeight="36dp"
-                        android:hint="@*com.tencent.mobileqq:string/aru"
                         android:maxLines="6"
                         android:includeFontPadding="false"
                         android:maxLength="@*com.tencent.mobileqq:integer/o"
