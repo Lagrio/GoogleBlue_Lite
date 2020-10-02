@@ -1,7 +1,7 @@
-# MaterialQQ - GoogleBlue
+# MaterialQQ - GoogleBlue Lite
 
 ![](heroimage.png)
 
-一个Substratum主题
+一个免费Substratum主题
 
   
