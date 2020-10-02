@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "me.lagrio.materialqq.googleblue",
+  "applicationId": "me.lagrio.materialqq.googleblue.lite",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 196,
-      "versionName": "4.3.2-build2",
+      "versionCode": 200,
+      "versionName": "4.3.2-lite",
       "enabled": true,
       "outputFile": "app-release.apk"
     }

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="me.lagrio.materialqq.googleblue"
+          package="me.lagrio.materialqq.googleblue.lite"
           android:installLocation="internalOnly">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE"/>
     <uses-permission android:name="android.permission.INTERNET" />
 	
 	<uses-feature
-        android:name="me.lagrio.materialqq.googleblue"
+        android:name="me.lagrio.materialqq.googleblue.lite"
         android:required="false" /> <!-- Set to true for OMS-rom only block to be enabled -->
 
     <application
@@ -21,7 +21,7 @@
         tools:ignore="GoogleAppIndexingWarning"
         android:extractNativeLibs="false">
 
-        <activity android:name="me.lagrio.materialqq.googleblue.SubstratumLauncher">
+        <activity android:name="me.lagrio.materialqq.googleblue.lite.SubstratumLauncher">
             <intent-filter>
                 <action android:name="projekt.substratum.THEME"/>
                 <category android:name="android.intent.category.DEFAULT"/>
