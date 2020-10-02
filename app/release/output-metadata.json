@@ -11,7 +11,7 @@
       "type": "SINGLE",
       "filters": [],
       "properties": [],
-      "versionCode": 200,
+      "versionCode": 198,
       "versionName": "4.3.2-lite",
       "enabled": true,
       "outputFile": "app-release.apk"
