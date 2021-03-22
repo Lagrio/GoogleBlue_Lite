@@ -2,12 +2,11 @@
 <resources>
     <color name="bless_btn_text">#FFFFFFFF</color>
     <color name="qb_troop_notification_bar_unread_text_color">#FF4386F7</color>
-    <color name="qm">#00FFFFFF</color>
-    <color name="qq_setting_me_item_title_color">#FFFFFFFF</color>
-    <color name="qq_setting_me_nightmode_color">#FFFFFFFF</color>
-    <color name="qq_setting_me_nightmode_color_white">#FFFFFFFF</color>
-    <color name="qq_setting_me_sig_color">#FFFFFFFF</color>
-    <color name="qq_setting_me_title_color">#FFFFFFFF</color>
+    <color name="qq_setting_me_item_title_color">#FF202124</color>
+    <color name="qq_setting_me_nightmode_color">#FF202124</color>
+    <color name="qq_setting_me_nightmode_color_white">#FF202124</color>
+    <color name="qq_setting_me_sig_color">#FF202124</color>
+    <color name="qq_setting_me_title_color">#FF202124</color>
     <color name="skin_aio_cursor_color">#FF4386F7</color>
     <color name="skin_aio_cursor_friend_color">#FF4386F7</color>
     <color name="skin_aio_highlight_color">#404386F7</color>

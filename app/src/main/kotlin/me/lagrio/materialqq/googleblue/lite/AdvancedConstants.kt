@@ -10,8 +10,6 @@ object AdvancedConstants {
     // Blacklisted APKs to prevent theme launching, these include simple regex formatting, without
     // full regex formatting (e.g. com.android. will block everything that starts with com.android.)
     val BLACKLISTED_APPLICATIONS = arrayOf(
-            "me.qiwu.colorqq2",
-            "me.qiwu.colorqq",
             "cc.madkite.freedom",
             "zone.jasi2169.uretpatcher",
             "uret.jasi2169.patcher",
