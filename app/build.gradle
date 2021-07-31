@@ -31,11 +31,11 @@ android {
         // to the substratum repo rather than anything lower. Keep targetSdkVersion the same.
         minSdkVersion 24
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode 252
+        versionCode 254
         versionName "4." +
                 "5." +
                 "0-" +
-                "lite"  +
+                "lite-"  +
                 "beta1"
 
         // Themers: DO NT MODIFY
