@@ -1,7 +1,7 @@
 <resources>
     <!-- Theme name and author name -->
     <string name="ThemeName">MaterialQQ - GoogleBlue Lite</string>
-    <string name="ThemeAuthor">卖动TM</string>
+    <string name="ThemeAuthor">MaiTungTM</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
     <string name="ThemeAuthorEmail">zhuangb.inc@gmail.com</string>
