@@ -186,7 +186,7 @@ class SubstratumLauncher : Activity() {
     private fun showDialog() {
         val dialog = AlertDialog.Builder(this, me.lagrio.materialqq.googleblue.lite.R.style.DialogStyle)
                 .setCancelable(false)
-                .setIcon(me.lagrio.materialqq.googleblue.lite.R.drawable.ic_launcher)
+                .setIcon(me.lagrio.materialqq.googleblue.lite.R.mipmap.ic_launcher)
                 .setTitle(me.lagrio.materialqq.googleblue.lite.R.string.launch_dialog_title)
                 .setMessage(me.lagrio.materialqq.googleblue.lite.R.string.launch_dialog_content)
                 .setPositiveButton(me.lagrio.materialqq.googleblue.lite.R.string.launch_dialog_positive) { _, _ -> startAntiPiracyCheck() }

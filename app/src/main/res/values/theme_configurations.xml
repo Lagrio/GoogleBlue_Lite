@@ -4,7 +4,7 @@
     <string name="ThemeAuthor">MaiTungTM</string>
     <!-- Your email for bug reports (DEFAULT: empty) -->
     <!--suppress CheckTagEmptyBody -->
-    <string name="ThemeAuthorEmail">zhuangb.inc@gmail.com</string>
+    <string name="ThemeAuthorEmail">maitungtm@outlook.com</string>
     <!-- Theme wallpaper source (must be raw) -->
     <string name="ThemeWallpaperSource"></string>
     <!-- Do your theme support substratum legacy? -->
