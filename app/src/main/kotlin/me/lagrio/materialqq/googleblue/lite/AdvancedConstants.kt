@@ -1,4 +1,4 @@
-package me.theme.template
+package me.lagrio.materialqq.googleblue.lite
 
 object AdvancedConstants {
 

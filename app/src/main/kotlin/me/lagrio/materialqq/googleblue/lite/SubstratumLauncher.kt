@@ -13,14 +13,14 @@ import android.widget.Toast
 import com.github.javiersantos.piracychecker.*
 import com.github.javiersantos.piracychecker.enums.*
 import com.github.javiersantos.piracychecker.utils.apkSignature
-import me.theme.template.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
-import me.theme.template.AdvancedConstants.OTHER_THEME_SYSTEMS
-import me.theme.template.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
-import me.theme.template.AdvancedConstants.SHOW_LAUNCH_DIALOG
-import me.theme.template.ThemeFunctions.checkApprovedSignature
-import me.theme.template.ThemeFunctions.getSelfSignature
-import me.theme.template.ThemeFunctions.getSelfVerifiedPirateTools
-import me.theme.template.ThemeFunctions.isCallingPackageAllowed
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.OTHER_THEME_SYSTEMS
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.SHOW_DIALOG_REPEATEDLY
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.SHOW_LAUNCH_DIALOG
+import me.lagrio.materialqq.googleblue.lite.ThemeFunctions.checkApprovedSignature
+import me.lagrio.materialqq.googleblue.lite.ThemeFunctions.getSelfSignature
+import me.lagrio.materialqq.googleblue.lite.ThemeFunctions.getSelfVerifiedPirateTools
+import me.lagrio.materialqq.googleblue.lite.ThemeFunctions.isCallingPackageAllowed
 
 /**
  * NOTE TO THEMERS
@@ -81,7 +81,7 @@ class SubstratumLauncher : Activity() {
         } else {
             OTHER_THEME_SYSTEMS
                     .filter { action?.startsWith(prefix = it, ignoreCase = true) ?: false }
-                    .forEach { verified = true }
+                    .forEach { _ -> verified = true }
         }
         if (!verified) {
             Log.e(tag, "This theme does not support the launching theme system. ($action)")
@@ -145,7 +145,7 @@ class SubstratumLauncher : Activity() {
                         returnIntent.putExtra("encryption_key", me.lagrio.materialqq.googleblue.lite.BuildConfig.DECRYPTION_KEY)
                         returnIntent.putExtra("iv_encrypt_key", me.lagrio.materialqq.googleblue.lite.BuildConfig.IV_KEY)
 
-                        val callingPackage = intent.getStringExtra("calling_package_name")
+                        val callingPackage = intent.getStringExtra("calling_package_name")!!
                         if (!isCallingPackageAllowed(callingPackage)) {
                             finish()
                         } else {

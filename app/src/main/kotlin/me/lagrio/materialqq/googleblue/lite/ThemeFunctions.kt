@@ -1,4 +1,4 @@
-package me.theme.template
+package me.lagrio.materialqq.googleblue.lite
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -6,9 +6,9 @@ import android.content.pm.PackageManager
 import android.content.pm.Signature
 import android.os.RemoteException
 import me.lagrio.materialqq.googleblue.lite.BuildConfig
-import me.theme.template.AdvancedConstants.BLACKLISTED_APPLICATIONS
-import me.theme.template.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
-import me.theme.template.AdvancedConstants.OTHER_THEME_SYSTEMS
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.BLACKLISTED_APPLICATIONS
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.ORGANIZATION_THEME_SYSTEMS
+import me.lagrio.materialqq.googleblue.lite.AdvancedConstants.OTHER_THEME_SYSTEMS
 
 @Suppress("ConstantConditionIf")
 object ThemeFunctions {
@@ -44,7 +44,7 @@ object ThemeFunctions {
             } catch (e: RemoteException) {
                 return false
             }
-        }.forEach { return true }
+        }.forEach { _ -> return true }
         return false
     }
 
