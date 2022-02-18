@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="m5">MaterialQQ - GoogleBlue Lite | v4.5.1 | Outline Blue 7-10</string>
+    <string name="m5">MaterialQQ - GoogleBlue Lite | v4.5.2 | Outline Blue 7-10</string>
         <string name="wjw">模式选择</string><!--模式选择-->
     <string name="wjv">默认模式</string><!--默认模式-->
     <string name="wju">需搭配 Classic/Outline 分支使用的模式，您的上上之选。</string><!--默认模式提示-->
