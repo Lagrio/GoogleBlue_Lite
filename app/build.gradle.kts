@@ -40,8 +40,8 @@ android {
         targetSdk = 30
         minSdk = 24
         // Both versions must be changed to increment on Play Store/user's devices
-        versionCode = 268
-        versionName = "4.5.2"
+        versionCode = 272
+        versionName = "4.5.3 "
 
         // Themers: DO NOT MODIFY
         buildConfigField("boolean", "SUPPORTS_THIRD_PARTY_SYSTEMS", "$SUPPORTS_THIRD_PARTY_SYSTEMS")
