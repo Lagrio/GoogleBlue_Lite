@@ -2,6 +2,7 @@
 
 ![](heroimage.png)
 
-一个免费Substratum主题
+A free Substratum Theme for Android QQ.
+Based on [substratum/template](https://github.com/substratum/template).
 
   
